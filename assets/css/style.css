@@ -1,8 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto 100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
 
-/*---------------------------------------- Font Selection*/
-body {
+/*---------------------------------------- Body*/
+body{
     font-family: 'Lato', sans-serif;
+    color: cornsilk;
+    background: url("../../assets/images/starry_sky.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
+
+
+
 /*---------------------------------------- Navbar*/
+.navbar{
+    background-color: #02222f;
+}
+
+.navbar-brand,
+.nav-link{
+    color: cornsilk;
+}
+
+
+/*---------------------------------------- Footer*/
+.footer-social{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.social-link{
+    color: cornsilk;
+}
+
+.footer-text{
+    color: cornsilk;
+    text-align: center;
+}
