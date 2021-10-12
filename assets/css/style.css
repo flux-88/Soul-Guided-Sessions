@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto 100,200,300,400,500,600,700|Lato:100,200,300,400,500,600,700');
-
 /*---------------------------------------- Body*/
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Mallanna', sans-serif;
     color: cornsilk;
     background: url("../../assets/images/starry_sky.png") no-repeat center center;
     -webkit-background-size: cover;
@@ -13,7 +11,12 @@ body{
     min-height: 100vh;
 }
 
-
+/*---------------------------------------- Buttons*/
+.btn-cta{
+    font-family: 'Over the Rainbow', cursive;
+    background-color: #02222f;
+    border: cornsilk 2px solid;
+}
 
 
 /*---------------------------------------- Navbar*/
@@ -21,9 +24,20 @@ body{
     background-color: #02222f;
 }
 
-.navbar-brand,
 .nav-link{
     color: cornsilk;
+}
+
+
+/*---------------------------------------- Jumbotron*/
+.jumbotron{
+    padding-top: 100px;
+    padding-bottom: 125px;
+}
+
+h1{
+    font-family: 'Over the Rainbow', cursive;
+    padding-bottom: 35px;
 }
 
 
