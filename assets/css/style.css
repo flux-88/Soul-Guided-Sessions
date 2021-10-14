@@ -12,9 +12,10 @@ body{
 }
 
 /*---------------------------------------- Buttons*/
-.btn-cta{
+.btn{
     font-family: 'Over the Rainbow', cursive;
     background-color: #02222f;
+    color: cornsilk;
     border: cornsilk 2px solid;
 }
 
