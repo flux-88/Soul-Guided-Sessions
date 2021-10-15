@@ -19,8 +19,16 @@ body{
     border: cornsilk 2px solid;
 }
 
+.btn-listen{
+    width: 130px;
+}
+
 
 /*---------------------------------------- Navbar*/
+.navbar-brand{
+    font-family: 'Over the Rainbow', cursive;
+}
+
 .navbar{
     background-color: #02222f;
 }
@@ -33,14 +41,40 @@ body{
 /*---------------------------------------- Jumbotron*/
 .jumbotron{
     padding-top: 100px;
-    padding-bottom: 125px;
 }
 
-h1{
+.jumbotron-music{
+    padding-bottom: 8px;
+}
+
+.jumbo-head{
     font-family: 'Over the Rainbow', cursive;
     padding-bottom: 35px;
 }
 
+.jumbo-sub-head{
+    font-family: 'Over the Rainbow', cursive;
+}
+
+
+/*---------------------------------------- Cards*/
+.card{
+    border: 1.5px solid cornsilk;
+}
+
+.card-title{
+    font-family: 'Over the Rainbow', cursive;
+    text-decoration: underline;
+}
+
+.card-body{
+    background-color: #02222f;
+    text-align: center;
+}
+
+.card-text{
+    text-align: justify;
+}
 
 /*---------------------------------------- Footer*/
 .footer-social{
